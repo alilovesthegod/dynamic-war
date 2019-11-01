@@ -5,7 +5,7 @@
     <artifactId>dynamer</artifactId>
     <version>0.1-SNAPSHOT</version>
     <name>My Application</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -158,7 +158,7 @@
     <profiles>
         <profile>
             <!-- Production mode can be activated with either property or profile -->
-            <id>production-mode</id>
+            <id>production</id>
             <activation>
                 <property>
                     <name>vaadin.productionMode</name>
