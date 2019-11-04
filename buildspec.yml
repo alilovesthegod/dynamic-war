@@ -27,7 +27,6 @@ phases:
     commands:
       mvn package -Pproduction
       && mv target/*.war ROOT.war;
-      cp ROOT.war ROOT2.war
       # - command
       # - command
   #name: $(date +%Y-%m-%d)
@@ -36,7 +35,6 @@ phases:
 artifacts:
   files:
     'ROOT.war'
-    'ROOT2.war'        
 #cache:
   #paths:
     # - paths
