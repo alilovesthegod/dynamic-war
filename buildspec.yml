@@ -34,7 +34,8 @@ phases:
   #base-directory: location
 artifacts:
   files:
-    'ROOT.war'      
+    'ROOT.war'
+    'ROOT.war'        
 #cache:
   #paths:
     # - paths
